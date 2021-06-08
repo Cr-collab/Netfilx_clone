@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.black 
+{
+    background-color: #141414;
+}
+
+header 
+{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 30px;
+    background-color: transparent;
+    transition: all ease 0.7s;
+    
+}
+
+
+
+.header--logo
+{
+    height: 50px;
+}
+
+.header--logo a
+{
+   height: 100%;
+   text-decoration: none;
+   color: red;
+   font-size: 40px;
+   font-weight: bold;
+   font-family: 'Bebas Neue', cursive;
+
+}
+
+.header--user 
+{
+    height: 80px;
+    font-size: 50px;
+}
+
+.header--user img
+{
+   height: 100%;
+}

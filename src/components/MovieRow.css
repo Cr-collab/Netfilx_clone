@@ -15,10 +15,10 @@
     padding-left: 30px;
 }
 
-.movieRow--list 
-{
-   width: 99999999px;
+.movieRow--list {
+    transition: all ease  0.5s;
 }
+
 
 .movieRow--item
 {
@@ -39,3 +39,41 @@
     transform: scale(1);
 }
 
+.moviewRow--left,.moviewRow--right
+{
+  position: absolute;
+  width: 40px;
+  height: 225px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+ 
+  transition: all ease 0.5s ;
+
+}
+
+.moviewRow--left
+{
+    left: 0;
+}
+
+.moviewRow--right
+{
+    right: 0;
+}
+
+
+@media (max-width:760px)
+{
+
+    .moviewRow--left,
+    .moviewRow--right
+    {
+        opacity: 1;
+    }
+
+}

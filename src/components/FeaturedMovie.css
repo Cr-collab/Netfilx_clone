@@ -19,6 +19,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 150px;
+    padding-top: 70px;
+    
 
 }
 
@@ -99,4 +103,45 @@
     margin-top: 15px;
     font-size: 18px;
     color: #c0b9b9;
+}
+
+
+
+@media (max-width:760px)
+{
+
+    .featured
+    {
+        height: 90vh;
+
+
+    }
+
+    .featured--name
+    {
+        font-size: 40px;
+    }
+
+    .featured--name
+    {
+        font-size: 16px;
+    }
+
+    .featured--description
+    {
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+
+    .featured--watchbutton,
+    .featured--mylistbutton
+    {
+        font-size: 16px;
+    }
+    .featured--genres
+    {
+        font-size: 14px;
+    }
+
 }
